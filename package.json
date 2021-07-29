@@ -1,11 +1,16 @@
 {
   "name": "tab-saver",
-  "version": "1.0",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/joemirizio/tab-saver"
+  },
   "scripts": {
+    "run": "npx web-ext run",
     "build": "npx web-ext build --overwrite-dest",
     "lint": "npx web-ext lint"
   },
   "devDependencies": {
-    "web-ext": "^5.5.0"
+    "web-ext": "^6.2.0"
   }
 }
