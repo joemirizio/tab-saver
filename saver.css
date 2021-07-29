@@ -1,0 +1,23 @@
+svg {
+    height: 25px;
+    padding-right: 5px;
+}
+.storage {
+    display: flex;
+    justify-content: center;
+}
+.storage input {
+    display: none;
+}
+.storage label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border: 3px solid transparent;
+    border-radius: 5px;
+}
+.storage input:checked + label {
+    border: 3px solid var(--primary);
+    color: var(--primary);
+}
