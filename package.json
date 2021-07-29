@@ -1,0 +1,11 @@
+{
+  "name": "tab-saver",
+  "version": "1.0",
+  "scripts": {
+    "build": "npx web-ext build --overwrite-dest",
+    "lint": "npx web-ext lint"
+  },
+  "devDependencies": {
+    "web-ext": "^5.5.0"
+  }
+}
